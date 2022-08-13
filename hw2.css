@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 以上是css reset */
+.main {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-top: 92px;
+    padding-bottom: 91px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #424242;
+}
+
+.logo {
+    background-image: url("https://upload.cc/i1/2022/07/28/Xtq03W.png");
+    width: 117px;
+    height: 117px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;  
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.key {
+    margin-right: 100px
+}
+
+label {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: #FFD366 
+
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 8px;
+    border-color: #FFD366; 
+    border-width: 4px;
+    font-size: 20px;
+    background-color:#646464;
+    color: #ffffff
+}
+
+::placeholder {
+    color: #b1b1b1;
+    padding-left: 5px;
+}
+
+.button {
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.button i {
+    color: black
+}
+
+#bt {
+  
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: #FFD366;
+    border: 0; /* 讓外匡線不見 */
+    outline: none;   /* 讓外匡線不見 */
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #424242;
+    cursor:pointer;
+    position: absolute;
+}
+
+
+#bt p {
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#icon {
+    background-color: #86D73E;
+    margin-top: 90px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    border: 5px solid #424242;
+    display: none;
+    cursor:pointer;
+}
+
+#refresh {
+    margin-top: 7px;
+    margin-left: 7px;
+    color: #4A4A4A
+}
+
+#comment {
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 20px;
+    position: absolute;
+    right: -140px
+}
+
+.record {
+    padding-top: 50px;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+
+.record h2 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #6F6F6F;
+    margin-bottom: 20px;
+}
+
+.record table {
+    width: 720px;
+    margin: 0 auto;
+}
+.record tr {
+    border: 20px solid #F5F5F5
+
+}
+.record td {
+    
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #424242;
+    
+    
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.box3 {
+    background-color: white;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+
+
+}
+
+.box4 {
+    background-color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.box5 {
+    background-color: white;
+    font-size: 10px;
+    margin-left: 120px;
+    text-align: left;
+} 
+
+.box6 {
+    width: 10px;
+    background-color: white;
+}
+.foot {
+    background-color: #FFD365;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+
+.pic {
+    background-image: url("https://upload.cc/i1/2022/07/29/F4rWsP.png");
+    width: 55px;
+    height: 55px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;  
+    margin-left: 485px;
+    margin-top: 18px;
+    margin-bottom: 17px;
+}
